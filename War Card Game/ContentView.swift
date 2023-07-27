@@ -77,18 +77,18 @@ struct ContentView: View {
                     
                 }.foregroundColor(.white)
                 
-                Spacer() // space
+                Spacer() // this is a space
             }
         } // Finish this Z-Stack with the necessary code within it
     }
     
     func deal() {
         // Randomize the player's card
-        var playerValue = Int.random(in: 2...14)
+        let playerValue = Int.random(in: 2...14)
         playerCard = "card" + String(playerValue)
         
         // Randomize the cpu's card
-        var cpuValue = Int.random(in: 2...14)
+        let cpuValue = Int.random(in: 2...14)
         cpuCard = "card" + String(cpuValue)
         
         // Update the score with logic
