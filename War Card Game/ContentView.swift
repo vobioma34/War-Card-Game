@@ -18,7 +18,7 @@ struct ContentView: View {
         
         ZStack {
             // Display the overall background color of the game
-            Image("background-wood-grain").resizable().ignoresSafeArea()
+            Image("background-wood-grain").resizable().ignoresSafeArea() // ignores the safe area of the screen
             
             //V-Stack for all the elements
             VStack {

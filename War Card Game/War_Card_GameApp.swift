@@ -14,7 +14,7 @@ struct War_Card_GameApp: App {
         
         WindowGroup {
             
-            ContentView()
+            ContentView() // Load the ContentView
             
         }
     }
